@@ -9,7 +9,7 @@ app.get('/hello', function (req, res) {
     res.send('{"message": "Hello World!"}');
 });
 
-let port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
+let port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8081;
 let ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || 'localhost';
 
 app.listen(port, ip, function () {

@@ -1,0 +1,65 @@
+ input {
+            color: blue;
+        }
+
+#NameId {
+          color: rgb(38, 38, 156);
+          font-family: 'Dancing Script', cursive;
+        }
+
+.cur{
+    font-family: 'Pacifico', cursive;
+}
+
+.par{
+    font-family: 'Russo One', sans-serif;
+}
+div.comp{
+    font-family: 'Gayathri', sans-serif;
+}
+.arb{
+    color : rgba(68, 18, 70, 0.829);
+    font-family: 'Amatic SC', cursive;
+}
+
+#priv:hover {
+    color: red;
+    }
+
+#PB {
+    color:green;
+}
+
+.red {
+    color:red;
+}
+#ima{
+    padding: 30px ;
+    background-color:rgb(13, 21, 138);
+    border: 3px solid rgb(113, 205, 228);
+    border-collapse: collapse;
+}
+#ima:hover {
+    width: 40%;
+}
+
+table {
+    border: 3px solid rgb(182, 75, 75);
+    border-collapse: collapse;
+    Width: 30%;
+}
+td, th {
+    border: 1px solid rgb(182, 75, 75);
+    padding: 3px;
+    text-align: center;
+}
+th {
+    background-color: lightblue;
+    }
+td {
+    background-color: lightgray;
+}
+
+body{
+    background-color: lightgrey;
+}
